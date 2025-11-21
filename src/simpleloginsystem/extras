@@ -1,0 +1,9 @@
+    /* Also show in JOptionPane for important confirmations
+        JOptionPane.showMessageDialog(null,
+                "Message Sent Successfully!\n\n" +
+                        "Message ID: " + message.getMessageId() + "\n" +
+                        "Message Hash: " + message.getMessageHash() + "\n" +
+                        "Recipient: " + message.getRecipientCell() + "\n" +
+                        "Message: " + message.getMessage(),
+                "Message Sent",
+                JOptionPane.INFORMATION_MESSAGE);*/
